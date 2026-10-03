@@ -30,6 +30,7 @@ optuna==5.0.0
 packaging==26.3
 pandas==3.0.6
 pillow==12.3.0
+pyarrow==25.0.1
 pyparsing==3.3.3
 python-dateutil==2.9.0.post0
 PyYAML==6.0.3
