@@ -1,0 +1,18 @@
+{
+  "cnn": "resnet50",
+  "ml": "mlp",
+  "train_dataset": "appa",
+  "best_params": {
+    "pca_components": 512,
+    "hidden_layers": "128",
+    "alpha": 9.072075308698685e-05,
+    "learning_rate_init": 0.00012987493617288908,
+    "batch_size": 64
+  },
+  "cv_mae": 9.983,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 7536,
+  "seconds": 395.5
+}

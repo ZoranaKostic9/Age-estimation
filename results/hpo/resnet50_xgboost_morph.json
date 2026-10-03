@@ -1,0 +1,21 @@
+{
+  "cnn": "resnet50",
+  "ml": "xgboost",
+  "train_dataset": "morph",
+  "best_params": {
+    "pca_components": 512,
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.05516992239507229,
+    "subsample": 0.6353323301120727,
+    "colsample_bytree": 0.7760588574274389,
+    "min_child_weight": 3,
+    "reg_lambda": 0.05357532938100057
+  },
+  "cv_mae": 6.067,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 50013,
+  "seconds": 678.9
+}

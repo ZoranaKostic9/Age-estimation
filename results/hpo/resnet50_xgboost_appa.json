@@ -1,0 +1,21 @@
+{
+  "cnn": "resnet50",
+  "ml": "xgboost",
+  "train_dataset": "appa",
+  "best_params": {
+    "pca_components": 128,
+    "n_estimators": 500,
+    "max_depth": 4,
+    "learning_rate": 0.029588883830943942,
+    "subsample": 0.6444877084724623,
+    "colsample_bytree": 0.927690377237262,
+    "min_child_weight": 1,
+    "reg_lambda": 0.42637151153032193
+  },
+  "cv_mae": 10.128,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 7536,
+  "seconds": 337.6
+}

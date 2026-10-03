@@ -1,0 +1,21 @@
+{
+  "cnn": "convnext",
+  "ml": "xgboost",
+  "train_dataset": "utkface",
+  "best_params": {
+    "pca_components": 256,
+    "n_estimators": 500,
+    "max_depth": 5,
+    "learning_rate": 0.028989698129625967,
+    "subsample": 0.6999369521039305,
+    "colsample_bytree": 0.9481919901190314,
+    "min_child_weight": 2,
+    "reg_lambda": 0.04302508379902031
+  },
+  "cv_mae": 9.06,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 23693,
+  "seconds": 418.5
+}

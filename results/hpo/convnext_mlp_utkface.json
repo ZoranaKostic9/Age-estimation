@@ -1,0 +1,18 @@
+{
+  "cnn": "convnext",
+  "ml": "mlp",
+  "train_dataset": "utkface",
+  "best_params": {
+    "pca_components": 128,
+    "hidden_layers": "256-64",
+    "alpha": 0.0001461896279370495,
+    "learning_rate_init": 0.0016738085788752138,
+    "batch_size": 256
+  },
+  "cv_mae": 8.949,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 23693,
+  "seconds": 184.6
+}

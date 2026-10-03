@@ -1,0 +1,18 @@
+{
+  "cnn": "convnext",
+  "ml": "mlp",
+  "train_dataset": "fgnet",
+  "best_params": {
+    "pca_components": 128,
+    "hidden_layers": "256-64",
+    "alpha": 3.0272744558044434e-05,
+    "learning_rate_init": 0.003329450546560471,
+    "batch_size": 64
+  },
+  "cv_mae": 6.365,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 998,
+  "train_samples": 998,
+  "seconds": 70.7
+}

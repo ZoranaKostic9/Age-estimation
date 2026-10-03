@@ -1,0 +1,18 @@
+{
+  "cnn": "resnet50",
+  "ml": "mlp",
+  "train_dataset": "morph",
+  "best_params": {
+    "pca_components": 128,
+    "hidden_layers": "512-128",
+    "alpha": 0.00501052476371299,
+    "learning_rate_init": 0.0012400341887180094,
+    "batch_size": 256
+  },
+  "cv_mae": 6.471,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 50013,
+  "seconds": 235.0
+}

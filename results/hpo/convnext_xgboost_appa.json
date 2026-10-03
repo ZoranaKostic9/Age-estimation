@@ -1,0 +1,21 @@
+{
+  "cnn": "convnext",
+  "ml": "xgboost",
+  "train_dataset": "appa",
+  "best_params": {
+    "pca_components": 256,
+    "n_estimators": 450,
+    "max_depth": 5,
+    "learning_rate": 0.04194772042181143,
+    "subsample": 0.8766143839876744,
+    "colsample_bytree": 0.7493019791527222,
+    "min_child_weight": 10,
+    "reg_lambda": 0.010998938986373734
+  },
+  "cv_mae": 9.209,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 7536,
+  "seconds": 534.2
+}

@@ -1,0 +1,21 @@
+{
+  "cnn": "resnet50",
+  "ml": "xgboost",
+  "train_dataset": "utkface",
+  "best_params": {
+    "pca_components": 256,
+    "n_estimators": 500,
+    "max_depth": 4,
+    "learning_rate": 0.026388872132397486,
+    "subsample": 0.6921143930192636,
+    "colsample_bytree": 0.8854704210448573,
+    "min_child_weight": 4,
+    "reg_lambda": 0.01737577543720264
+  },
+  "cv_mae": 9.277,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 23693,
+  "seconds": 396.1
+}

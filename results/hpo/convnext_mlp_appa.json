@@ -1,0 +1,18 @@
+{
+  "cnn": "convnext",
+  "ml": "mlp",
+  "train_dataset": "appa",
+  "best_params": {
+    "pca_components": 128,
+    "hidden_layers": "256",
+    "alpha": 3.750699330173525e-05,
+    "learning_rate_init": 0.00024270965182172352,
+    "batch_size": 64
+  },
+  "cv_mae": 9.133,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 5000,
+  "train_samples": 7536,
+  "seconds": 245.0
+}

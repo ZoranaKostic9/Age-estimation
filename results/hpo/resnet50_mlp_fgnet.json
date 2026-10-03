@@ -1,0 +1,18 @@
+{
+  "cnn": "resnet50",
+  "ml": "mlp",
+  "train_dataset": "fgnet",
+  "best_params": {
+    "pca_components": 128,
+    "hidden_layers": "256-64",
+    "alpha": 0.005058763049778486,
+    "learning_rate_init": 0.0058860082604732826,
+    "batch_size": 128
+  },
+  "cv_mae": 7.028,
+  "n_trials": 25,
+  "n_folds": 3,
+  "hpo_samples": 998,
+  "train_samples": 998,
+  "seconds": 65.1
+}
